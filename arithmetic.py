@@ -5,12 +5,14 @@
 # "Not enough inputs" message when no space between + and proceeding numbers +12
 # Prints 10 every time regardless of which numbers are used
 # Error message "enter operator followed by two ints" when we have +1 2
+# If input is not a number or symbol then it says "not enough inputs"
+
 
 
 def add(num1, num2):
     """Return the sum of the two inputs."""
 
-    return 10
+    return 5
 
 
 def subtract(num1, num2):
