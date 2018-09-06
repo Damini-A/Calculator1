@@ -7,8 +7,8 @@
 # Error message "enter operator followed by two ints" when we have +1 2
 # If input is not a number or symbol then it says "not enough inputs"
 
-num1 = int(input("Enter a first number: "))
-num2 = int(input("Enter a second number: "))
+# num1 = int(input("Enter a first number: "))
+# num2 = int(input("Enter a second number: "))
 
 def add(num1, num2):
     """Return the sum of the two inputs."""
@@ -54,8 +54,10 @@ def mod(num1, num2):
     """Return the remainder of num1 / num2."""
     modulo_nums = num1 % num2
     return modulo_nums
-
-print(square(num1))
-
-print(power(num1, num2))
-print(cube(num1))
+print(add(2,2))
+print(subtract(2,2))
+print(multiply(2,3))
+print(divide(3,2))
+print(square(2))
+print(power(2, 3))
+print(cube(2))
